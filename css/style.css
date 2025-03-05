@@ -1,0 +1,113 @@
+
+
+#wrapper {
+
+}
+
+
+
+
+div#part1 {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:100px 100px 100px;
+    grid-template-areas: 
+    'hd hd hd'
+    gfgfg;
+
+}
+
+nav {
+    
+}
+
+#header1 {
+    grid-are: h1;
+
+}  
+
+#header2 { 
+
+}
+
+#header3 {
+
+} 
+
+#header4 {
+
+}
+
+#section1 {
+
+} 
+
+#section2 {
+
+} 
+
+#section3 {
+
+} 
+
+#aside1 {
+
+}
+ 
+#aside2 {
+
+}
+
+#aside3 {
+
+}
+ 
+#aside4 {
+
+}
+
+#aside5 {
+
+}
+ 
+#aside6 {
+
+} 
+
+#img1 {
+
+} 
+
+#img2 { 
+
+} 
+
+#img3 { 
+
+} 
+
+#img4 {
+
+}
+
+#img5 {
+
+}
+
+#img6 {
+
+}
+
+footer {
+
+}
+
+
+
+
+
+
+
+
+
+
