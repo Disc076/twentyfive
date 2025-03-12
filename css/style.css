@@ -1,7 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
-
-#wrapper {
-
+body div {
+    height:100vh;
 }
 
 
@@ -9,22 +12,39 @@
 
 div#part1 {
     display:grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows:100px 100px 100px;
+    grid-template-columns: 90% 10%;
+    grid-template-rows:100px 900px ;
     grid-template-areas: 
-    'hd hd hd'
-    gfgfg;
+    'hd nav' 
+    'sc1 sc1'
+    ; 
+    height: 100vh;
 
 }
 
 nav {
-    
+    background-color: #342718; 
+
+}
+
+#navtext {
+    color: whitesmoke; 
+    background-color: blanchedalmond;
+    height: 100%;
 }
 
 #header1 {
-    grid-are: h1;
-
+    background-color:   #342718;
+    align-content: center; 
+    
 }  
+
+#header1text {
+    font-size: 70px; 
+    color:  whitesmoke;
+    text-align: center;
+} 
+
 
 #header2 { 
 
@@ -39,9 +59,18 @@ nav {
 }
 
 #section1 {
+    grid-area: sc1;
+    background-color: #B99976; 
+    align-content: center;
+    justify-content: center;
+    display: flex; 
 
 } 
+#section1text{
+    align-self: center;
+    font-size: 100px;
 
+}
 #section2 {
 
 } 
