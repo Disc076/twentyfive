@@ -7,9 +7,6 @@ body div {
     height:100vh;
 }
 
-
-
-
 div#part1 {
     display:grid;
     grid-template-columns: 90% 10%;
@@ -19,12 +16,10 @@ div#part1 {
     'sc1 sc1'
     ; 
     height: 100vh;
-
 }
 
 nav {
     background-color: #342718; 
-
 }
 
 div#part2 {
@@ -41,18 +36,16 @@ div#part2 {
 
 #navtext {
     color: whitesmoke; 
-    background-color: blanchedalmond;
-    height: 100%; 
-    text-align: center; 
     align-items: center; 
     justify-content: center; 
     display: grid;
+    margin-left: 7vh;
+    margin-top: 1vh;
 }
 
 #header1 {
     background-color:   #342718;
     align-content: center; 
-    
 }  
 
 #header1text {
@@ -87,22 +80,38 @@ div#part2 {
     align-content: center;
     justify-content: center;
     display: flex; 
-
 } 
+
 #section1text{
     align-self: center;
     font-size: 100px;
+} 
 
-}
 #section2 {
     grid-area: sc2;
     background-color: #B99976; 
+    border-radius: 8px; 
+    margin-top: 8px;     
+    align-content: center;
+}  
+
+#section2text {
+    font-size: 30px; 
+    padding: 14px; 
 } 
 
 #section3 {
     grid-area: sc3; 
     background-color: #B99976; 
+    border-radius: 8px; 
+    margin-top: 8px; 
+    align-content: center;
 } 
+
+#section3text { 
+    font-size: 30px;
+    padding: 14px;
+}
 
 #aside1 {
 
@@ -131,11 +140,21 @@ div#part2 {
 #img1 {
     grid-area: img1; 
     background-color: #B99976; 
+    width: 700px; 
+    height: 440px;
+    margin-left: 120px; 
+    border-radius: 8px; 
+    margin-top: 8px;
 } 
 
 #img2 { 
     grid-area: img2; 
     background-color: #B99976; 
+    width: 700px; 
+    height: 440px; 
+    margin-left: 120px; 
+    border-radius: 8px; 
+    margin-top: 8px;
 } 
 
 #img3 { 
@@ -157,13 +176,3 @@ div#part2 {
 footer {
 
 }
-
-
-
-
-
-
-
-
-
-
